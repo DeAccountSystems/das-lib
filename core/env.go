@@ -12,7 +12,7 @@ type Env struct {
 
 var EnvMainNet = Env{
 	THQCodeHash:      "0x9e537bf5b8ec044ca3f53355e879f3fd8832217e4a9b41d9994cf0c547241a79",
-	ContractArgs:     "0x1c23ba374944d0090ad3ae3d1ed3a89fc66d1817",
+	ContractArgs:     "0x0e65e63058c5b76b44ab13c15e9245fb8c301e04",
 	ContractCodeHash: "0x00000000000000000000000000000000000000000000000000545950455f4944",
 	MapContract: map[common.DasContractName]string{
 		common.DasContractNameConfigCellType:            "0x3775c65aabe8b79980c4933dd2f4347fa5ef03611cef64328685618aa7535794",
