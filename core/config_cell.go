@@ -87,7 +87,7 @@ func (d *DasCore) InitDasConfigCell() error {
 	)
 	var cacheBuilder CacheConfigCellCharSet
 	//err = errors.New("test config cell err")
-	if err != nil {
+	if d.red != nil && err != nil {
 		if d.red == nil {
 			return fmt.Errorf("ConfigCellDataBuilderByTypeArgsList1 err: %s", err.Error())
 		}
